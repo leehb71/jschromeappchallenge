@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Start page</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <span class="js-weather weather">location</span>
+      <br />
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <br />
+
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+
+      <h2 class="js-greetings greetings"></h2>
+      <!-- js에서 class 추가 -->
+      <br />
+
+      <div class="taskForm">
+        <h2>Today Tasks</h2>
+        <form class="js-taskForm">
+          <input type="text" placeholder="Add task" />
+        </form>
+        <div class="pending">
+          <h3>Pending</h3>
+          <ul class="list-pending"></ul>
+        </div>
+        <div class="finished">
+          <h3>Finished</h3>
+          <ul class="list-finished"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
